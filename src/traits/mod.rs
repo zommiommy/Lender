@@ -8,7 +8,7 @@ mod marker;
 
 pub use self::{
     accum::{ProductLender, SumLender},
-    collect::{ExtendLender, FromLender, IntoLender},
+    collect::{ExtendLender, FromLender, IntoLender, IterLender, IterMutLender},
     double_ended::DoubleEndedLender,
     exact_size::ExactSizeLender,
     ext::{IntoIteratorExt, IteratorExt},
