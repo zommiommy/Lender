@@ -249,7 +249,6 @@
 //! [`streaming-iterator`]: https://crates.io/crates/streaming-iterator
 
 #![no_std]
-
 extern crate alloc;
 
 #[cfg(doctest)]
